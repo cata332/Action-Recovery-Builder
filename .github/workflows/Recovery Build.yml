@@ -86,8 +86,7 @@ jobs:
       uses: webfactory/ssh-agent@v0.5.4
       with:
           ssh-private-key: |
-              ${{ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIAhxAubdmeeYjy18HKc48TWKxsw/EoPu6dipjakOovT yvi4lvphf@mozmail.com
- }}
+              ${{ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIAhxAubdmeeYjy18HKc48TWKxsw/EoPu6dipjakOovT yvi4lvphf@mozmail.com}}
 
     - name: Set variables
       run: |
